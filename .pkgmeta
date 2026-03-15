@@ -1,0 +1,7 @@
+package-as: ProfessionSpecTracker
+
+ignore:
+  - .github
+  - media/*.psd
+  - README.md
+  - LICENSE

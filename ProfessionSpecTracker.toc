@@ -1,0 +1,30 @@
+## Interface: 120001
+## Title: Profession Spec Tracker
+## Notes: Shows which alts have invested specialization points in profession spec nodes via enhanced tooltips.
+## Author: ProfessionSpecTracker
+## Version: 2.0.0
+## SavedVariables: ProfessionSpecTrackerDB
+## IconTexture: Interface\Icons\INV_Misc_Book_09
+## DefaultState: enabled
+## X-Category: Professions
+
+# Utility / debug helpers (loaded first – zero dependencies)
+Utils.lua
+
+# Core addon namespace, constants, initialization framework
+Core.lua
+
+# SavedVariables schema, migration, index maintenance
+Data.lua
+
+# Settings panel (Interface → Addons)
+Config.lua
+
+# Profession specialization tree scanner
+Scanner.lua
+
+# Guild-based sync between game accounts
+Comm.lua
+
+# Tooltip hook for profession spec path & tab nodes (via EventRegistry)
+Tooltip.lua
