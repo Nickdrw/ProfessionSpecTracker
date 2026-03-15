@@ -10,7 +10,6 @@
 --   2. DIRECT SYNC (always active when targets are configured)
 --      Whispers HELLO directly to each direct sync character on login
 --      and after each scan.  Independent of the guild sync toggle.
---      Only works with characters on the same or connected realms.
 --
 -- Protocol overview:
 --

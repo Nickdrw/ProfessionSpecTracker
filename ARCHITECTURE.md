@@ -121,7 +121,7 @@ Broadcasts to all guild members running PST. Toggle: `config.guildSync`.
 
 ### 5b. Direct Sync (always active when targets exist)
 
-Whispers HELLO to specific characters listed in `config.directSyncTargets`. Works cross-account on same/connected realms. **One-sided**: only one side needs to list the other.
+Whispers HELLO to specific characters listed in `config.directSyncTargets`. Works cross-account. **One-sided**: only one side needs to list the other.
 
 ### Message Types
 

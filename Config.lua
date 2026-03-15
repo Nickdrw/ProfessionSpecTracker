@@ -367,7 +367,7 @@ local function CreateDirectSyncFrame()
     desc:SetPoint("TOPLEFT", header, "BOTTOMLEFT", 0, -4)
     desc:SetWidth(560)
     desc:SetJustifyH("LEFT")
-    desc:SetText("Sync profession data directly with specific characters via whisper. Useful for cross-account sync. Only one side needs to list the other. Characters listed here will receive a targeted sync request on login and after each scan.\nFormat: |cffffffffName-Realm|r (e.g. |cffffffffMyalt-Stormrage|r). Must be on the same or a connected realm.")
+    desc:SetText("Sync profession data directly with specific characters via whisper. Useful for cross-account sync. Only one side needs to list the other. Characters listed here will receive a targeted sync request on login and after each scan.\nFormat: |cffffffffName-Realm|r (e.g. |cffffffffMyalt-Stormrage|r).")
 
     -- Input box + Add button
     local inputBox = CreateFrame("EditBox", "PST_DirectSyncInput", frame, "InputBoxTemplate")

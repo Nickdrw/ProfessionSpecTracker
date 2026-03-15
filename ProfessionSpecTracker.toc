@@ -1,12 +1,15 @@
 ## Interface: 120001
 ## Title: Profession Spec Tracker
 ## Notes: Shows which alts have invested specialization points in profession spec nodes via enhanced tooltips.
-## Author: ProfessionSpecTracker
-## Version: 2.0.0
+## Author: NickDrew
+## Version: 1.0.0
 ## SavedVariables: ProfessionSpecTrackerDB
 ## IconTexture: Interface\Icons\INV_Misc_Book_09
+## Category: Professions
 ## DefaultState: enabled
 ## X-Category: Professions
+## X-Curse-Project-ID: 1486194
+## X-Wago-ID: BNBmOgGx
 
 # Utility / debug helpers (loaded first – zero dependencies)
 Utils.lua
